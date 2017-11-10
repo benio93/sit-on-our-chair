@@ -38,16 +38,37 @@
 .header-content{
      width: 1200px;
     height: 500px;
+
 }
 
 .header-image{
-    width: 550px;
+    width: 470px;
+    height: 400px;
     float: left;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .header-button{
     width: 400px;
+    height: 400px;
     float: left;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.style-button {
+    display: block;
+    background-color: #24baa0;
+    width: 264px;
+    height: 53px;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 55px;
+    padding-top: 15px;
+    border-radius: 5px;
+    color: white;
 
 }
 
@@ -72,6 +93,16 @@
     background-image: url("../images/box1_img.jpg");
     margin-right: 15px;
     margin-left: 15px;
+    padding-top: 150px;
+}
+
+.ania {
+    display: block;
+    height: 62px;
+    width: 355px;
+    background-color: white;
+    opacity: 0.5;
+    color: black;
 }
 
 .productcenter{
@@ -158,6 +189,7 @@
 
 
 .submit-button {
+    display:block;
     background-color:  #24baa0;
     width: 343px;
     height: 71px;
