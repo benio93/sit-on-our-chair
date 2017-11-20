@@ -1,3 +1,7 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
 .container{
     width: 1200px;
     margin:0 auto;
@@ -7,9 +11,17 @@
 .main-header{
     height: 541px;
     width: 1200px;
-    color: white;
-    background-color: #cccccc;
-
+    color: black;
+    text-align: center;
+    line-height: 20px;
+    background: rgba(254,254,254,1);
+    background: -moz-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(226,226,226,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(254,254,254,1)), color-stop(100%, rgba(226,226,226,1)));
+    background: -webkit-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(226,226,226,1) 100%);
+    background: -o-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(226,226,226,1) 100%);
+    background: -ms-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(226,226,226,1) 100%);
+    background: linear-gradient(to bottom, rgba(254,254,254,1) 0%, rgba(226,226,226,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e2e2e2', GradientType=0 );
 }
 
 .header{
@@ -23,21 +35,48 @@
 .header-logo{
     width: 200px;
     float: left;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21.37px;
+    text-align: left;
+    margin-left: 50px;
+}
+.buttonLogo{
+    font-size: 40px;
+    font-weight: 500;
+
+}
+
+.logoColor{
+    color: #24baa0;
+    font-weight: 700;
 }
 
 .main-menu{
     width: 300px;
     float: right;
+    color: white;
 }
 .menu {
-     float: left;
-     margin-right: 10px;
-     margin-left: 10px;
+    float: left;
+    margin-right: 35px;
+    font-family: Raleway;
+    color:  #ffffff;
+    font-size: 14px;/* Przybliżenie (wynika z podstawienia czcionki) */
+    font-weight: 700;
+    line-height: 21.37px;/* Przybliżenie (wynika z podstawienia czcionki) */
+    text-align: left;
  }
 
 .header-content{
      width: 1200px;
     height: 500px;
+}
+
+.contentContainer{
+    display: inline-block;
+    box-sizing: border-box;
 
 }
 
@@ -54,8 +93,8 @@
     width: 400px;
     height: 400px;
     float: left;
-    margin-top: 100px;
-    margin-left: 50px;
+    margin-top: 150px;
+    margin-left:10px;
 }
 
 .style-button {
@@ -65,12 +104,22 @@
     height: 53px;
     font-size: 20px;
     text-decoration: none;
-    padding-left: 55px;
+    padding-left: 5px;
     padding-top: 15px;
     border-radius: 5px;
     color: white;
-
+    margin-top: 50px;
+    margin-left: 75px;
 }
+
+
+.textButton{
+    display: block;
+    height: 79px;
+    width: 421px;
+    padding-top: 50px;
+}
+
 
 .product-section{
     width: 1200px;
@@ -93,18 +142,30 @@
     background-image: url("../images/box1_img.jpg");
     margin-right: 15px;
     margin-left: 15px;
-    padding-top: 150px;
 }
 
-.ania {
+.productStyle {
     display: block;
     height: 62px;
     width: 355px;
     background-color: white;
     opacity: 0.5;
     color: black;
+    margin-top: 150px;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    line-height: 20.371px;
+    padding-top: 15px;
+    padding-left: 15px;
 }
 
+.productUnderline{
+    display: block;
+    background-color:  #27c7ab;
+    width: 138px;
+    height: 7px;
+}
 .productcenter{
     float: left;
     width: 329px;
@@ -120,46 +181,167 @@
     height: 252px;
     margin-right: 15px;
     margin-left: 15px;
+    color:  #565656;
+    font-size: 14px;/* Przybliżenie (wynika z podstawienia czcionki) */
+    font-weight: 400;
+    line-height: 20.371px;/* Przybliżenie (wynika z podstawienia czcionki) */
+    text-align: left;
+}
+
+.productContent{
+    color:  #000000;
+    font-size: 16px;/* Przybliżenie (wynika z podstawienia czcionki) */
+    font-weight: 600;
+    line-height: 20.371px;/* Przybliżenie (wynika z podstawienia czcionki) */
+    text-align: left;
+    opacity: 1;
 }
 
 .price-section{
     width: 1200px;
     height: 725px;
-    background-color: #cccccc;
+    background-color: #ededee;
     padding-left: 55px;
     padding-right: 55px;
-    padding-top: 125px;
+    padding-top: 50px;
+
 
 
 }
 
+.priceBanner{
+    color:  #575757;
+    font-size: 22px;/* Przybliżenie (wynika z podstawienia czcionki) */
+    font-weight: 500;
+    line-height: 20.371px;/* Przybliżenie (wynika z podstawienia czcionki) */
+    text-align: left;
+    margin-bottom: 70px;
+    margin-left: 10px;
+}
+
+.bannerUnderline{
+    display: block;
+    background-color:  #27c7ab;
+    width: 320px;
+    height: 8px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
 
 
 .price-basic{
     width: 326px;
     height: 497px;
-    background-color: blue;
+    background-color: #f6f6f6;
     float: left;
     margin-left: 17px;
     margin-right: 17px;
+    border: solid;
+    border-color: #d3d2d2;
+}
+
+.priceCircle{
+    display: block;
+    width: 131px;
+    height: 131px;
+    background-color: #fcfcfc;
+    border: solid;
+    border-color: #d3d2d2;
+    border-radius: 50%;
+    margin-top: 80px;
+    margin-left: 95px;
+    padding-right: 15px;
+}
+.priceCircle2{
+    display: block;
+    width: 131px;
+    height: 131px;
+    background-color: #fcfcfc;
+    border: solid;
+    border-color: #00d5ac;
+    border-radius: 50%;
+    margin-top: 80px;
+    margin-left: 95px;
+
+}
+
+.priceValue{
+    color:  #c2c2c2;
+    font-size: 45px;/* Przybliżenie (wynika z podstawienia czcionki) */
+    font-weight: 700;
+    line-height: 20px;/* Przybliżenie (wynika z podstawienia czcionki) */
+    text-align: right;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+.priceValue2{
+    color:  #00cdab;
+    font-size: 45px;/* Przybliżenie (wynika z podstawienia czcionki) */
+    font-weight: 700;
+    line-height: 20px;/* Przybliżenie (wynika z podstawienia czcionki) */
+    text-align: right;
+    margin-top: 40px;
+    margin-right: 25px;
+}
+
+.valueSUP2{
+    color:  #00cdab;
+    font-size: 16px;/* Przybliżenie (wynika z podstawienia czcionki) */
+    font-weight: 700;
+}
+
+.underValue2 {
+    color: #00cdab;
+    font-size: 16px; /* Przybliżenie (wynika z podstawienia czcionki) */
+    font-weight: 700;
+    margin-top: 10px;
+}
+.underValue{
+    color:  #c6c6c6;
+    font-size: 16px;/* Przybliżenie (wynika z podstawienia czcionki) */
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.valueSUP{
+    color:  #c2c2c2;
+    font-size: 16px;/* Przybliżenie (wynika z podstawienia czcionki) */
+    font-weight: 700;
+}
+
+.priceBlock{
+    width: 320px;
+    height: 46px;
+    background-color: #e1e1e1;
+    margin-top: 50px;
+}
+
+.priceBlock2{
+    width: 320px;
+    height: 46px;
+    background-color: #ededee;
+    margin-top: 50px;
 }
 
 .price-standard{
     width: 326px;
     height: 497px;
-    background-color: blue;
     float: left;
     margin-left: 17px;
     margin-right: 17px;
+    background-color: #00cdab;
 }
 
 .price-advance{
     width: 326px;
     height: 497px;
-    background-color: blue;
+    background-color: #f6f6f6;
     float: left;
     margin-left: 17px;
     margin-right: 17px;
+    border: solid;
+    border-color: #d3d2d2;
 }
 
 
