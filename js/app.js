@@ -1,6 +1,5 @@
 var  menuHref = document.querySelector(".menu ");
 var tooltip = document.querySelector(".tooltip");
-console.log(menuHref);
 
 
 
@@ -41,7 +40,6 @@ var prev = document.querySelector(".prev");
 var tempSlider = document.querySelector(".slider");
 var slider = tempSlider.querySelectorAll("li");
 
-console.log(slider);
 
 var index = 0;
 
@@ -67,4 +65,29 @@ prev.addEventListener('click', function(){
     }
     slider[index].classList.add("visibleBlock");
 });
+
+
+
+// Rozwijane
+
+
+
+
+
+var dropButton = document.querySelectorAll('.drop_down_list');
+console.log(dropButton);
+
+
+
+
+for (var i = 0; i < dropButton.length; i++){
+    var button = dropButton[i].firstElementChild.nextElementSibling;
+    button.addEventListener('click', function () {
+        dropContent =this.nextElementSibling;
+        dropContent.classList.toggle('visiblePanel');
+    })
+
+
+
+}
 

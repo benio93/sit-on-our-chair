@@ -680,8 +680,10 @@ margin-top: 10px;
 .inline {
     display:inline-block;
     width:300px;
-    padding:14px;
+    /*padding:14px; */
     vertical-align: top;
+    margin-left: 45px;
+    margin-right: 45px;
 }
 
 
@@ -694,7 +696,7 @@ margin-top: 10px;
     height:38px;
     background-color: white;
     margin-top:22px;
-    padding: 8px 12px;
+    /*padding: 8px 12px; */
     position: relative;
 }
 
@@ -783,7 +785,6 @@ margin-top: 10px;
     width:100%;
     height:195px;
     padding:10px;
-    margin-top: 50px;
 
 }
 
@@ -797,7 +798,7 @@ margin-top: 10px;
     font-size: 24px;
     display: inline-block;
     font-family: 'ralewaymedium', Arial, Tahoma, sans-serif;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-left: 29px;
     border-radius: 8px;
     text-decoration: none;
@@ -808,7 +809,6 @@ margin-top: 10px;
     vertical-align: top;
     padding-bottom:10px;
     border-bottom:1px solid #e7e7e7;
-    height: 135px;
 }
 
 .panel_right {
@@ -838,7 +838,6 @@ margin-top: 10px;
     display: block;
     font-size: 22px;
     color: #24baa0;
-    margin-top:10px;
 }
 .sum_label{
     display: inline-block;
@@ -884,6 +883,11 @@ margin-top: 10px;
     top: 54px;
     display:none;
 }
+
+.visiblePanel{
+    display: inline-block;
+}
+
 .list_panel li {
     margin-top:10px;
     cursor: pointer;
@@ -893,3 +897,4 @@ margin-top: 10px;
 .title {
     height: 30px;
 }
+
